@@ -27,4 +27,37 @@ print(mydict.get("email"))
 mydict["name"]="preetii"
 print(mydict)
 
+#oops
+#class and object
+
+class Preeti:   #class name in uppercase
+    age=20
+    print("hello")
+    
+#create object and pass class properties
+preeti=Preeti()
+print(preeti.age)
+
+class agecalculator:
+    birthyear=int(input("enter the birthyear"))
+    currentyear=int(input("enter the current year"))
+    Age=currentyear-birthyear
+
+age=agecalculator()
+print(age.Age)
+
+
+#method overloading 
+#def age(dob):
+    #print(dob)
+    
+def age(dob,name):
+    print(dob,name)
+#x=age("1 dec 2003")
+y=age("17 sep 2024","preeti")
+
+
+    
+
+
 
